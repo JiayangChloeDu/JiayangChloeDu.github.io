@@ -1765,7 +1765,7 @@ input, select, textarea {
 	}
  <!-- 调节fast learner那排字 默认是#b2b2b2-->
 	header p {
-		color: #dedede;
+		color: #e8e6e6;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2650,11 +2650,11 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(222, 222, 222, 0.13);
+			color: rgba(230, 230, 230, 0.5);
 		}
 
 	#footer .copyright {
-		color: rgba(255, 255, 255, 0.4);
+		color: rgba(255, 255, 255, 0.3);
 		font-size: 0.8em;
 		list-style: none;
 		margin: 1em 0 0 0;
