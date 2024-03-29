@@ -126,33 +126,33 @@
 							<p></p>
 							</header>
 										<pre><code>SELECT skills 
-                                                                                           FROM chloe_technique_base
-                                                                                           WHERE 'Obtained'='Yes' AND 'Class' = 'Languages and Database';
+FROM chloe_technique_base
+WHERE 'Obtained'='Yes' AND 'Class' = 'Languages and Database';
 
-                                                                                           Output: ['Python', 'PySpark', 'SQL', 'Tableau', 
-											            'Plotly', 'HTML', 'R', 'MS Office Suite']
-
-											
-                                                                                           SELECT skills 
-                                                                                           FROM chloe_technique_base
-                                                                                           WHERE 'Obtained'='Yes' AND 'Class' = 'Libraries and Frameworks';
-
-                                                                                           Output: ['Numpy', 'Pandas', 'Scikit-Learn', 'XG Boost',  
-											            'H2O', 'TensorFlow', 'Keras', 'Seaborn', 'Matplotlib']
+Output: ['Python', 'PySpark', 'SQL', 'Tableau', 
+         'Plotly', 'HTML', 'R', 'MS Office Suite']
 
 											
-											SELECT skills
-                                                                                        FROM chloe_technique_base
-                                                                                        WHERE 'Obtained'='Yes' AND 'Class' = 'Platform';
+SELECT skills 
+FROM chloe_technique_base
+WHERE 'Obtained'='Yes' AND 'Class' = 'Libraries and Frameworks';
 
-                                                                                        Output: ['Dataiku', 'Github', 'Tableau']
+Output: ['Numpy', 'Pandas', 'Scikit-Learn', 'XG Boost',  
+         'H2O', 'TensorFlow', 'Keras', 'Seaborn', 'Matplotlib']
 
 											
-                                                                                      DIVE INTO chloe_treasure_vault
-                                                                                      SEEKING skills
-                                                                                      WHERE 'Quest_Status'='Journey Ahead';
+SELECT skills
+FROM chloe_technique_base
+WHERE 'Obtained'='Yes' AND 'Class' = 'Platform';
 
-                                                                                      Treasure Found: ['Eager Apprentice']
+Output: ['Dataiku', 'Github', 'Tableau']
+
+											
+DIVE INTO chloe_treasure_vault
+SEEKING skills
+WHERE 'Quest_Status'='Journey Ahead';
+
+Treasure Found: ['Eager Apprentice']
 
 
 										</code></pre>
