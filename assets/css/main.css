@@ -1763,9 +1763,9 @@ input, select, textarea {
 	section.special, article.special {
 		text-align: center;
 	}
-
+ <!-- 调节fast learner那排字 默认是#b2b2b2-->
 	header p {
-		color: #e6e6e6;
+		color: #dedede;
 		position: relative;
 		margin: 0 0 1.5em 0;
 	}
@@ -2650,7 +2650,7 @@ input, select, textarea {
 	}
 
 		#footer .icons a {
-			color: rgba(230, 230, 230, 0.4);
+			color: rgba(222, 222, 222, 0.13);
 		}
 
 	#footer .copyright {
